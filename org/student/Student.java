@@ -1,0 +1,29 @@
+package org.student;
+import org.department.Department;
+public class Student extends Department {
+	public void studentName()
+	{
+		System.out.println("Dineshumar C");
+	}
+	public void studentDept()
+	{
+		System.out.println("Information Technology");
+	}
+	public void studentId()
+	{
+		System.out.println("19BIt4020");
+	}
+	public static void main(String[] args) 
+	{
+		Student stud=new Student();
+		stud.collegeName();
+		stud.collegeRank();
+		stud.deptName();
+		stud.studentDept();
+		stud.studentName();
+		stud.studentId();
+		stud.studentName();
+		
+	}   
+
+}
